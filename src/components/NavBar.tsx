@@ -20,7 +20,12 @@ function NavBar() {
             alignItems="center"
             justifyContent={"space-between"}
           >
-            <IconButton>
+            <IconButton
+              edge="start"
+              aria-label="logo"
+              size="large"
+              color="inherit"
+            >
               <Avatar src={Logo} sx={{ width: 60, height: "auto" }} />
             </IconButton>
             <Typography

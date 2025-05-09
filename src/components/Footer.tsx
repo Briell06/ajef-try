@@ -1,5 +1,5 @@
 import { Facebook } from "@mui/icons-material";
-import { Box, Button, Container, Typography } from "@mui/material";
+import { Box, Button, Container, Divider, Typography } from "@mui/material";
 import Ajef from "./assets/favibon.png";
 
 function Footer() {
@@ -24,19 +24,14 @@ function Footer() {
             <Facebook /> Facebook
           </Button>
         </Box>
-        <hr
-          style={{
-            height: 3,
-            width: "60%",
-            backgroundColor: "white",
-            borderRadius: 10,
-            outline: "none",
-            border: "none",
-            marginTop: 20,
-          }}
+        <Divider
+          orientation="horizontal"
+          variant="middle"
+          flexItem
+          sx={{ bgcolor: "white", height: 2, my: 2 }}
         />
         <Typography pb={2} textAlign="center">
-          Copyright - Todos los derechos Reservados
+          Copyright @2025 - Todos los derechos Reservados
         </Typography>
       </Container>
     </Box>
