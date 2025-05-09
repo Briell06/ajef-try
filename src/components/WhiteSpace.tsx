@@ -7,7 +7,7 @@ function WhiteSpace() {
       display="grid"
       height={{ xs: 350, sm: 400, md: 450, lg: 550 }}
       sx={{
-        background: `linear-gradient(rgba(0, 40, 9) , transparent), url(${BG}) top / cover fixed `,
+        background: `linear-gradient(rgba(0, 40, 9) , transparent), url(${BG}) top / cover no-repeat`,
         placeContent: "center",
       }}
     >
