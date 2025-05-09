@@ -9,9 +9,15 @@ function Content() {
       sx={{ background: `linear-gradient( #126E34, black )` }}
     >
       <Container fixed>
-        <Paper elevation={24} sx={{ borderRadius: 3 }}>
+        <Paper elevation={24} sx={{ borderRadius: 3, pb: 3 }}>
           <Container fixed sx={{ display: "grid", placeContent: "center" }}>
-            <img src={Logo} alt="logo" style={{ width: 300, height: "auto" }} />
+            <Box textAlign="center">
+              <img
+                src={Logo}
+                alt="logo"
+                style={{ width: 300, height: "auto" }}
+              />
+            </Box>
             <Typography textAlign="center" fontWeight={500}>
               Para nadie es un secreto lo complicado de la situación social del
               momento histórico que nos ha tocado vivir, cada persona a lo largo

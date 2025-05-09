@@ -24,6 +24,7 @@ function NavBar() {
               <Avatar src={Logo} sx={{ width: 60, height: "auto" }} />
             </IconButton>
             <Typography
+              ml={{ sm: 2, md: 4, lg: 6 }}
               display={{ xs: "none", sm: "block" }}
               textAlign="center"
               fontSize={22}
@@ -31,7 +32,7 @@ function NavBar() {
               Herminio Rivera
             </Typography>
           </Stack>
-          <Stack direction="row">
+          <Stack direction="row" gap={{ lg: 4 }}>
             <Button color="inherit">INICIO</Button>
             <Button color="inherit">NOVEDADES</Button>
             <Button color="inherit">INFORMACIÓN</Button>

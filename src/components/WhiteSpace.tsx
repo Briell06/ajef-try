@@ -5,7 +5,7 @@ function WhiteSpace() {
   return (
     <Box
       display="grid"
-      height={350}
+      height={{ xs: 350, sm: 400, md: 450, lg: 550 }}
       sx={{
         background: `linear-gradient(rgba(0, 40, 9) , transparent), url(${BG}) top / cover fixed `,
         placeContent: "center",
@@ -16,6 +16,7 @@ function WhiteSpace() {
         color="white"
         fontWeight={700}
         textAlign="center"
+        fontSize={{ md: 120 }}
       >
         Proyecto Ajef Raíces
       </Typography>
